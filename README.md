@@ -20,3 +20,17 @@ cd volumio_scripts;
 ./scripts.sh
 
 ```
+
+##Setup tasks
+
+The script mainly setup FTP and SSH server.
+
+### FTP Server
+
+To connect to the FTP server, run a FTP client program (e.g. FileZilla), connect to server volumio, username/password is volumio. Try getting the ./ssh/ida_rsa_volumio private key file.  The file will be used for SSH client in the next step
+
+### SSH Server
+
+To connect to SSH server, run a SSH client program (e.g. PuTTY), connect to server volumio using private key obtained via .ssh/id_rsa_volumio.  Note that the private key file has to be converted into putty private key file by PuTTgen
+
+Enjoy!
