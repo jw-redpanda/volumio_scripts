@@ -21,7 +21,7 @@ cd volumio_scripts;
 
 ```
 
-##Setup tasks
+## Setup tasks
 
 The script mainly setup FTP and SSH server.
 
