@@ -17,7 +17,7 @@ To run the setup script, enter the command.  During setup, system may prompts fo
 
 ```
 cd volumio_scripts;
-./scripts.sh
+./volumio.sh
 
 ```
 
